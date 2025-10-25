@@ -33,6 +33,30 @@ header {
     color: black;
 }
 
+.secao01 {
+    background-image: url(imagens/DESKTOP.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 13rem;
+} 
+
+@media screen and (max-width: 480px) {
+    header {
+        background-color: aqua;
+    } 
+    
+}
+
+@media (max-width:500px) {
+section {
+    background-image: url(imagens/mobile.jpg);
+    padding: 10rem;
+}
+ nav {
+    display: none
+    ;
+ }    
+}
 
 
 
