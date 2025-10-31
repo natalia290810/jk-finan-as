@@ -143,19 +143,47 @@ section {
     font-size: 1.2rem;
 
  }
+.secao-03 {
+
+    background-color: #f3f3f3;
+    padding: 2rem;
+    
+}
 
  .div-pai {
-    background-color: #648285;
-    color: white;
-    font-size: 1.2rem;
-    width: 25%;
-    height: 17rem;
-    box-shadow: 10px 10px 20px rgb(14, 13, 13);
-     border-radius: 5px;
-     padding: 1rem;
-     cursor: pointer;
-      min-width: 300px
-    
+    width: 100%;
+    display: flex;
+    justify-content: center;
     }
 
+
+
+
+.text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    background-color: #648285;
+    color: white;
+    width: 350px;
+    height: 350px;
+    min-height: 250px;
+    box-shadow: 0 8px 15px rgba(0, 0,0, 0.25);
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    cursor:pointer;
+    border-radius: 10px;
+    padding: 1.5rem;
+
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
 
