@@ -58,6 +58,104 @@ section {
  }    
 }
 
+.section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 9rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
+.caixa {
+    /* cor do fundo da caixa  */
+    background-color: #648285;
+    /* cor da letra */
+    color: white;
+    /* tamanho da letra */
+    font-size: 1.2rem;
+    /* largura de todas as caixas em porcentagem */
+    width: 25%;
+    /* altura da caixa */
+    height: 17rem;
+    /* sombra das caixas  */
+    box-shadow: 10px 10px 20px rgb(14, 13, 13);
+    /* arredondamento da borba  */
+    border-radius: 5px;
+    /* largura mínina da caixa evita que fique muito pequeno */
+    min-width: 300px;
+    /* transição para o hover */
+    transition: 0.8s;
+    /* ativar cursor do mouse */
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.pai-caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.caixa-icons i {
+    color: black;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+
+} 
+
+.caixa-icons {
+    text-align: center;
+}
+
+ .texto-caixa p {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+
+ }
+
+ .texto-caixa button {
+    width: 8rem;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+ }
+
+ .texto-caixa {
+    text-align: center;
+ }
+
+ .text-content h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+ }
+ .text-content p {
+    color: rgb(17, 16, 16);
+    text-align: center;
+    font-size: 1.2rem;
+
+ }
+
+ .div-pai {
+    background-color: #648285;
+    color: white;
+    font-size: 1.2rem;
+    width: 25%;
+    height: 17rem;
+    box-shadow: 10px 10px 20px rgb(14, 13, 13);
+     border-radius: 5px;
+     padding: 1rem;
+     cursor: pointer;
+      min-width: 300px
+    
+    }
 
 
